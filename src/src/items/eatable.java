@@ -2,9 +2,9 @@ package items;
 
 import java.util.Date;
 
-public abstract class eatable implements Item {
+public class eatable implements Item {
     private String name;
-    private int size; // I liter
+    private int size; // Plads
     private Date expDate;
 
     public eatable(String name, int size, Date expDate) {

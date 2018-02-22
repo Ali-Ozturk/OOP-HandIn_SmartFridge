@@ -2,7 +2,7 @@ package items;
 
 import java.util.Date;
 
-public abstract class drinkable implements Item {
+public class drinkable implements Item {
     private String name;
     private int size; // I liter
     private Date expDate;
@@ -28,4 +28,5 @@ public abstract class drinkable implements Item {
     public boolean isExpired(Date thisDate){
         return thisDate.after(expDate);
     }
+
 }
